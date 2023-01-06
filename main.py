@@ -26,7 +26,7 @@ while True:
     divi()
   elif resp == 5:
     fatorial()
-  if resp > 5:
+  if resp > 5 or resp < 1:
     print()
     red("ERRO! Digite uma opção válida.")
     print()
